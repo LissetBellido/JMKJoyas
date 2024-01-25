@@ -1,0 +1,171 @@
+@import '../../scss/global.scss';
+
+.header {
+    color: $color-fuente-claro;
+    background-color: $color-bmkjoyas; 
+    //Para centrar todo el header es decir el div
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_navegation {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        span {
+            text-align:left;
+            padding: 5px;
+        }
+        &_nav {
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap:1rem;
+                    li{
+                        text-align: center;
+                        a {
+                            color: $color-fuente-claro;
+                            padding: 0 5px 0 5px;
+                        }
+                    }
+                }
+        }
+    }
+    &_search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        &_redes {
+            display: none;
+            gap:1rem;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+                img {
+                    max-width:36px;
+                    width: 100%;
+                    max-height: 36px;
+                }
+                img:hover {
+                max-width:56px;
+                width: 100%;
+                max-height: 56px;
+                }
+        } 
+        &_a {
+            padding: 5px;
+            &_img {
+                // Resolución de imagen 1080px x 1080px, se escoge un tamaño múltiplo
+                max-width:90px;
+                width: 100%;
+                max-height: 90px;
+            }
+            &_img:hover{
+                max-width:110px;
+                width: 100%;
+                max-height: 110px;
+            }
+        }
+        &_buscador {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            gap:1rem;
+            form {
+                cursor: pointer;
+                input {
+                    display: none;
+                    background-color: transparent;
+                }
+                button {
+                    padding: 0px;
+                    margin: 0px;
+                    border:none;
+                    background-color:transparent;
+                    border-color: transparent;
+                    img {
+                        text-align: center;
+                        cursor: pointer;
+                    }
+                }
+            }
+            img {
+                max-width:36px;
+                width: 100%;
+                max-height: 36px;
+            }
+             img:hover {
+                max-width:56px;
+                width: 100%;
+                max-height: 56px;
+            }
+        }
+    }
+}
+
+// tablet vertical
+@media (min-width:768px){
+    .header   {
+        &_navegation {
+            display: flex;
+        }
+        &_search {
+            &_redes {
+                display: flex;
+            } 
+            &_buscador {
+                display: flex;
+                justify-content:end;
+                align-items: center;
+                padding: 5px;
+                gap:1rem;
+                img {
+                    max-width:36px;
+                    width: 100%;
+                    max-height: 36px;
+                }
+            }
+        }
+    }
+}
+
+//tablet horizontal y pantallas superiores
+@media (min-width:1024px){
+    .header_search_buscador {
+        width: 50%; 
+        .search-form {
+            width: 80%; 
+            form {
+                border-radius: 15px;  
+                background-color: white;
+                outline: 1px solid white;
+                input {
+                    display: inline;
+                    float:left; 
+                    width: 85%;
+                    outline: 0; //sin contorno en el input
+                    box-shadow: none;
+                    border: none;
+                    font-family:$tipografia-general;
+                    text-align:center;
+                    height: 36px;
+                }
+                button {
+                    width: 15%; // al asignarle el 15 % rellena mas del cuadrado del boton
+                    background-color:$color-bmkjoyas;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+
+

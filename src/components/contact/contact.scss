@@ -1,0 +1,110 @@
+@import '../../scss/global.scss';
+
+.contenedor-contact{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.contacto {
+    color: $color-bmkjoyas;
+    font-weight: 500;
+    padding: 30px;
+    font-size:1.8rem;
+    margin: 30px auto 0 auto;
+}
+.parrafo-mensaje{
+text-align: justify;
+color: $color-bmkjoyas;
+padding: 30px;
+margin: 30px auto 0 auto;
+}
+.formulario {
+    background-color: white;
+    color: $color-bmkjoyas;
+    margin: 30px auto 0 auto;
+    width: 95%;
+    padding: 30px;
+  }
+  .campo {
+    display: flex;
+    margin-bottom: 32px;
+  }
+  .campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 32px;
+  }                                                                   
+  
+  .campo__field {
+    flex: 1;
+    border: 1px solid $gris;
+  }
+  .campo__field:hover {
+    border: 1px solid $color-bmkjoyas;
+  }
+  .campo__field--textarea {
+    height: 20rem;
+  }
+  .boton {
+    display: block;
+    font-family: $tipografia-general;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 15px;
+  }
+  @media (min-width: 768px) {
+    .boton {
+        display: inline-block;
+  
+    }
+  }
+  .boton:hover {
+    cursor: pointer;
+    color: $color-bmkjoyas;
+    background-color: $color-fuente-claro;
+    outline: 1px solid $color-bmkjoyas;
+  }
+  .boton--primario {
+    color: $color-fuente-claro;
+    background-color: $color-bmkjoyas;
+  }
+  // .boton--secundario {
+  //   color: $color-bmkjoyas;
+  //   background-color: $color-fuente-claro;
+  //   outline: 1px solid $color-bmkjoyas;
+  // }
+  .error {
+    background-color: rgb(185, 0, 0);
+    border-radius: 15px;
+    text-align: center;
+    padding: 1rem;
+    color: $color-fuente-claro;
+    text-transform: uppercase;
+    font-family: $tipografia-general;
+}
+.correcto {
+    background-color: rgb(26, 60, 4);
+    text-align: center;
+    padding: 1rem;
+    color: $color-fuente-claro;
+    text-transform: uppercase;
+    font-family: $tipografia-general;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

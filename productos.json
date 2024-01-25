@@ -1,0 +1,184 @@
+{
+    "productos":[
+       {
+          "id":1,
+          "categoria":"Pulseras",
+          "titulo":"Pulsera1",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/productos/pulseras/"
+       },
+       {
+          "id":2,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":3,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":4,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":5,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":6,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":7,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":8,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":9,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":10,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":11,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":12,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":13,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":14,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":15,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":16,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":17,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":18,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":19,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       },
+       {
+          "id":20,
+          "categoria":"Pulseras",
+          "título":"Pulsera2",
+          "peso":"50 gr.",
+          "medida":"20 cm",
+          "precio":"S/ 80 soles",
+          "img":"/assets/svg icons/icons-redes-sociales-blanco-completos/heart-blanco.svg"
+       }
+    ]
+ }

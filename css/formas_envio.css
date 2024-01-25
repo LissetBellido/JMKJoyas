@@ -1,0 +1,22 @@
+.formas_envio h1 {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.formas_envio ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+}
+.formas_envio ul li img {
+  max-width: 200px;
+  height: 100px;
+  margin: 20px;
+}
+
+.logo_olva {
+  background-color: #f9b52f;
+}/*# sourceMappingURL=formas_envio.css.map */

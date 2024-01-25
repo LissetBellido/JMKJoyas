@@ -1,0 +1,102 @@
+.contenedor-pulseras{
+    background-color:$color-bmkjoyas;
+    color: $color-fuente-claro;
+}
+.title-products{
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+.search-input{
+    float: left;
+    padding:10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 50%;
+    outline: 0;
+    // box-shadow: none;
+}
+.select-order {
+    float: right;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+}
+.product-box {
+    text-align: center;
+    color: $color-fuente-claro;
+    display: flex;
+    flex-direction: column;
+    // gap: 0.5rem;
+    .offer { // clase para colocar la oferta
+        margin: 0.5rem;
+        color: red;
+        text-transform: uppercase;
+        font-weight: bold;
+       &.hidden { // debe tener las clases offer y hidden para que aplique el hidden (oculto)
+            visibility: hidden;
+        }
+    }
+    .price {
+        font-size: 18px;
+        margin: 5px; 
+    }
+    strong del {
+        font-size: 14px;
+        font-weight: normal;
+        // margin-bottom: 5px;
+    }
+    h4 {
+        margin: 5px; 
+        font-weight: normal;
+        // overflow: hidden;
+        // -o-text-overflow: ellipsis; Para el navegador opera
+        // text-overflow: ellipsis; Coloca 3 puntos (...) y corta el texto largo
+        white-space: normal;
+    }
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p {
+        color:$color-fuente-claro; 
+        margin:0;
+    }
+    .img-logo {
+        margin-right:5px;
+        max-width:16px;
+        width: 100%;
+        max-height: 16px;
+    }
+    .img-logo:hover {
+        max-width:16px;
+        width: 100%;
+        max-height: 16px;
+    }
+}
+.product-box:hover {
+    text-decoration: none;
+    font-weight: normal;
+}
+.pagination {
+    text-align: center;
+    // list-style: none;
+    font-size: 18px;
+    li {
+        display: inline-block;
+        a {
+            color: $color-fuente-claro;
+            padding: 5px;
+            width:30px;
+            text-align: center;
+            display: inline-block;// Con esta propiedad se logra que tome el width:30%
+            // &.active {
+            //     border: 1px solid white;
+            // }
+        }
+        a.active {
+            border: 1px solid white;
+        }
+    }
+}

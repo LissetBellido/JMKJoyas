@@ -1,0 +1,21 @@
+@import '../../scss/global.scss';
+
+.h3-about {
+    color: $color-bmkjoyas;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+}
+.sobre-nosotros__imagen {
+    // max-width: 100%;
+    // height: auto;
+    text-align: center;
+}
+.sobre-nosotros__texto p {
+    height: auto;
+    text-align: justify;
+    color: $color-bmkjoyas;   
+    line-height: 2;
+    margin: 10px;
+}

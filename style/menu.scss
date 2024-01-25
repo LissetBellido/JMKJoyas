@@ -1,0 +1,21 @@
+#menu {
+text-align: center;
+margin-top: 20px;
+}
+#menu li a {
+    display: block;
+    padding: 5px;
+    margin-bottom: 7px;
+    color: $color-fuente-claro;
+}
+#menu li a.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+@media (min-width:768px) {
+    #menu {
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+

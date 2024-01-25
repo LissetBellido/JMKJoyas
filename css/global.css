@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-bmk {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}/*# sourceMappingURL=global.css.map */

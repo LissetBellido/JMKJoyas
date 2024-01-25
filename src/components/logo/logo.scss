@@ -1,0 +1,30 @@
+@import '../../scss/global.scss';
+
+.logo {
+    // Resolución de imagen 1080px x 1080px, se escoge un tamaño múltiplo
+    max-width:90px;
+    width: 100%;
+    max-height: 90px;
+}
+.logo:hover{
+    max-width:110px;
+    width: 100%;
+    max-height: 110px;
+}
+@media (max-width:768px){
+    .a-logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.img-logo {
+    max-width:36px;
+    width: 100%;
+    max-height: 36px;
+}
+.img-logo:hover {
+    max-width:46px;
+    width: 100%;
+    max-height: 46px;
+}

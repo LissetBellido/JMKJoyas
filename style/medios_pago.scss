@@ -1,0 +1,23 @@
+.medios_de_pago {
+    h1 {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+        padding: 20px;
+        li {
+            img, svg {
+            max-width: 200px;
+            //min-width: 20px;
+            height: 100px;
+            margin: 20px;
+            }
+        }
+    }
+}

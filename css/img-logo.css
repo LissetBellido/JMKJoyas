@@ -1,0 +1,11 @@
+.img-logo {
+  max-width: 36px;
+  width: 100%;
+  max-height: 36px;
+}
+
+.img-logo:hover {
+  max-width: 46px;
+  width: 100%;
+  max-height: 46px;
+}/*# sourceMappingURL=img-logo.css.map */

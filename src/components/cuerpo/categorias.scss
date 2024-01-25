@@ -1,0 +1,167 @@
+@import '../../scss/global.scss';
+.main {
+    background-color: $color-fuente-claro;
+    color:$color-bmkjoyas;
+    &_container{
+        max-width: 1400px;
+        margin:0 auto;
+        &_categorias{
+            h1{
+                line-height: 2; 
+                letter-spacing: 2px;
+                color:$color-bmkjoyas;
+            }
+            h1:hover {
+                text-decoration: underline;
+                font-weight: 800; 
+            }
+            img {
+                width: 25px;
+                height: 25px;
+            }
+            img:hover {
+                width: 30px;
+                height: 30px; 
+            }
+            &_pulseras {
+                background-image: url("/assets/productos/pulsera_P_196_Peso_9-9_gr.jpg");
+                // background-position:center center; otras forma de centrar en el x y y.
+                background-position:center;
+                // max-height: ;
+                // aspect-ratio: 1;
+                height: 450px;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            &_aretes {
+                background-image: url('/assets/productos/Arete_1854_Peso_5.8_gr.jpg');
+                background-position:50% 50%;
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+                height: 450px;
+            }
+            &_sortijas {
+                background-image: url("/assets/productos/sortija_de_AN_264_Peso_2.7_gr.jpg");
+                background-position: 50% 50%;
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                height: 450px;
+            }
+            &_dijes {
+                background-image: url("/assets/productos/dije_de_D_493_Peso_2.2_gr.jpg");
+                background-position: 50% 50%;
+                background-size: 100% auto;
+                background-repeat: no-repeat;
+                height: 450px;
+            }
+            &_juegos {
+               background-image: url("/assets/productos/juegos_JG_156_Peso_3.9_gr.jpg"); 
+               background-position: 50% 50%;
+               background-size: 100% 450px;
+               background-repeat: no-repeat;
+               height: 450px;
+            }
+        }
+    }
+}
+@media (min-width:768px){
+    .main {
+        &_container{
+            &_categorias{
+                // display: grid;
+                // grid-template-columns: 1fr 1fr 1fr 1fr;
+                // justify-content: center;
+                // align-content: center;
+                // margin: 20px;
+                // padding-top: 20px;
+                h1{
+                    line-height: 2; 
+                    letter-spacing: 2px;
+                }
+                h1:hover {
+                    text-decoration: underline;
+                    font-weight: 800; 
+                }
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+                img:hover {
+                    width: 30px;
+                    height: 30px; 
+                }
+                &_pulseras {
+                    // grid-column: 1 / span 2;
+                    // grid-row: 1 / span 2;
+                    // background-image:url("/assets/productos/pulsera_P_196_Peso_9-9_gr.jpg");
+                    background-image: url("/assets/productos/pulsera_P_196_Peso_9-9_gr.jpg");
+                    // background-position:center center; otras forma de centrar en el x y y.
+                    background-position:center;
+                    height: 500px;
+                    background-size: auto 500px; 
+                    background-repeat: no-repeat;
+                }
+                &_aretes {
+                    background-image: url('/assets/productos/Arete_1854_Peso_5.8_gr.jpg');
+                    background-position-x: 10%;
+                    background-position-y:-100%;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    height: 250px;
+                    max-width: 50%;
+                }
+                &_sortijas {
+                    background-image: url("/assets/productos/sortija_de_AN_264_Peso_2.7_gr.jpg");
+                    background-position: 50% 50%;
+                    background-size: 100% auto;
+                    background-repeat: no-repeat;
+                    height: 250px;
+                }
+                &_dijes {
+                    background-image: url("/assets/productos/dije_de_D_493_Peso_2.2_gr.jpg");
+                    background-position: 50% 50%;
+                    background-size: 100% auto;
+                    background-repeat: no-repeat;
+                    height: 250px;
+                }
+                &_juegos {
+                   background-image: url("/assets/productos/juegos_JG_156_Peso_3.9_gr.jpg"); 
+                   background-position: 50% 50%;
+                   background-size: 100% auto;
+                   background-repeat: no-repeat;
+                   height: 250px;
+                }
+            }
+        }  
+    }
+}
+@media (min-width:1024px){
+    .main {
+        &_container{
+            &_categorias{
+                &_aretes {
+                    background-position:-50% -50%;
+                }
+                &_juegos {
+                    background-position: -20% -20%;
+                }
+            }
+        }
+
+    }
+}
+@media (min-width:1200px){
+    .main {
+        &_container{
+            &_categorias{
+                &_aretes {
+                    background-position:-50% -50%;
+                }
+                &_juegos {
+                    background-position: 20% 20%;
+                }
+            }
+        }
+
+    }
+} 

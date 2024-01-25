@@ -1,0 +1,9 @@
+.product-box .img-products {
+  transition: all 0.3s;
+  filter: contrast(1.2);
+}
+
+.product-box:hover .img-products {
+  transform: scale(1.05, 1.1);
+  filter: contrast(1.4);
+}/*# sourceMappingURL=image-effects.css.map */

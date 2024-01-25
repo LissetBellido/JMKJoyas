@@ -1,0 +1,181 @@
+.footer {
+    background-color: $color-bmkjoyas;
+    color: $color-fuente-claro;
+    .container {
+        padding: 20px;
+        // margin: 20px; 
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    &_principal {
+        // height:400px;
+        display: block;
+
+        justify-content: space-between;
+        align-items: start;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        .resumen{
+            // width: 35%;
+            text-align: center;
+            display: block;
+            // height:250px;
+            // text-align: center;No lo utilizo
+            // vertical-align: middle;No lo utilizo
+            a {
+                img {
+                    max-width:150px;
+                    width: 100%;
+                    height:150px;
+                    margin: 10px;
+                }
+            }
+                p {
+                    height: auto;
+                    text-align: justify;
+                    line-height: 1;
+                    margin: 10px;
+                }
+        }
+        .enlaces {
+            // height:300px;
+            // width: 30%;
+            display:flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            gap:2rem;
+            color: $color-fuente-claro;
+            h3 {
+                margin-top: 60px;
+                text-align: center;
+            }
+            ul {
+                display: flex;
+                flex-direction: column; 
+                gap:1rem;
+                justify-content: center;
+                align-items: center;
+                // height:300px;
+                flex-wrap: nowrap;
+                margin:0px;
+                padding: 0px;
+                li {
+                    // margin: 10px;
+                    a {
+                        color: $color-fuente-claro;
+                    }
+                }
+            }
+        }
+        .contactanos {
+            // width: 30%;
+            display:flex;
+            flex-direction: column;
+            // height:300px;
+            justify-content: start;
+            align-items: center;
+            gap:2rem;
+            h3 {
+                margin-top: 60px;
+                text-align: center;
+            }
+            ul {
+                display: flex; 
+                justify-content: space-between;
+                align-items: center;
+                // flex-wrap: wrap; 
+                gap:1rem;
+                img{ 
+                max-width:36px; 
+                width: 100%;
+                max-height:36px;
+                // height: 100%;
+                margin: 10px;
+                }
+                img:hover {
+                max-width:56px;
+                width: 100%;
+                max-height: 56px;
+                }
+            }
+        }
+    }
+    &_secundario {
+        p {
+            text-align: center;
+            margin-top: 60px;
+        }
+    }
+}
+@media (min-width:992px){
+.footer {
+    height: 500px;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    &_principal {
+        height:400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin: 0.5rem;
+        padding: 0.5rem;
+        .resumen{
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height:350px;
+            // text-align: center;
+            // vertical-align: middle;
+            a {
+                img {
+                    max-width:150px;
+                    width: 100%;
+                    height:150px;
+                    margin: 10px;
+                }
+            }
+                p {
+                    text-align: justify;
+                    line-height: 1.5;
+                    margin: 10px;
+                }
+        }  
+        .enlaces {
+        height:300px;
+        margin: 10px;  
+        
+            h3 {
+                margin: 10px;
+            }
+            ul {
+                align-items: start;
+            }
+
+        }
+        .contactanos {
+            height:300px;
+            h3 {
+                margin-top: 10px;
+            }
+
+        }
+    }
+    &_secundario {
+        p {
+            margin: 10px;  
+            text-align: start;
+        }
+    }
+
+}
+}
+// @media (min-width:1024px){
+// }
+ 
+
+

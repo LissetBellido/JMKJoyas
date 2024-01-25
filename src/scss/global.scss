@@ -1,0 +1,57 @@
+// Declara las variables de forma global
+// Ahora puedes usar las variables en cualquier parte de tu código SCSS
+$color-bmkjoyas: #A3256C;
+// $color-background-gris-claro-bmkjoyas:#BBB7B7;
+// $color-background-gris-oscuro-bmkjoyas:#617073;
+$color-fuente-claro: white;
+$color-background-main: #dcdcdc;
+$color-gris:    #4b4f58;
+$gris: #e1e1e1;
+$tipografia-general: 'Roboto', sans-serif;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: $tipografia-general;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-bmk {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.no-subrayado {
+  text-decoration: none !important;
+}
+
+a:hover {
+  //para cambiar de color al texto de los enlaces
+  //el tamaño de los iconos 
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.centrar-texto {
+  text-align: center;
+}
+
+.fluid-imagen {
+  max-width: 100%;
+  height: auto;
+}

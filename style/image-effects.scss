@@ -1,0 +1,20 @@
+.product-box {
+    .img-products {
+        // border-radius: 1rem;
+        transition: all 0.3s;
+        // filter: brightness(1);
+        filter: contrast(1.2);
+        // filter: saturate(1.2);
+    }
+}
+.product-box:hover {
+    .img-products {
+        transform: scale(1.05, 1.1);
+        // filter: brightness(1.2);
+        filter: contrast(1.4);
+        // filter: saturate(1.4);
+        // max-width:400px;
+        // width: 100%;
+        // max-height:400px ;
+    }
+}

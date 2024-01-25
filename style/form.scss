@@ -1,0 +1,25 @@
+.form {
+    border-radius: 15px;  
+    background-color: white;
+    outline: 1px solid white;
+    input {
+        display: inline;
+        float:left; 
+        width: 85%;
+        outline: 0; //sin contorno en el input
+        box-shadow: none;
+        border: none;
+        font-family:$tipografia-general;
+        text-align:center;
+        height: 36px;
+    }
+    button {
+        width: 15%; // al asignarle el 15 % rellena mas del cuadrado del boton
+        background-color:$color-bmkjoyas;
+        display: flex;
+        justify-content: center;
+        // img {
+        // float:left;   
+        // }
+    }
+}

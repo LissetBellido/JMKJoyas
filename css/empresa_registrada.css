@@ -1,0 +1,26 @@
+.logoCamaraDeComercioDeLima {
+  background: #0071b6;
+}
+
+.logoMarcaPeru {
+  background-color: red;
+}
+
+.empresa_registrada h1 {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+.empresa_registrada ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+}
+.empresa_registrada ul li img {
+  max-width: 200px;
+  height: 100px;
+  margin: 20px;
+}/*# sourceMappingURL=empresa_registrada.css.map */
